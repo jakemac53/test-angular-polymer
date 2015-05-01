@@ -1,0 +1,11 @@
+name: test_android_polymer
+dependencies:
+  angular2: any
+  polymer: any
+  core_elements: any
+  paper_elements: any
+transformers:
+- angular2:
+    entry_points: web/index.dart
+- polymer:
+    entry_points: web/index.html
